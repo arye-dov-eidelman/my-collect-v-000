@@ -1,6 +1,6 @@
 def my_collect(array)
   return if !block_given?
-  let result = []
+  result = []
   i = 0
   while i < array.length
     result << (yield array[i])
